@@ -18,7 +18,7 @@
 
 .container{
     display: flex;
-    margin: 40px;
+    padding: 30px;
     gap: 30px;
     flex-wrap: wrap;
 

@@ -3,6 +3,10 @@
     margin: 0;
     box-sizing: border-box;
 }
+
+html {
+    scroll-behavior: smooth;
+}
 body{
     background-image: url(assets/CLG_PIC2.jpg);
     opacity: 100px;
@@ -264,10 +268,12 @@ nav{
 
 
 /*  Vision Mission And Goal */
-
+.vis-mis-cnt{
+    position: relative;
+}
 .vis-mis{
     position: absolute;
-    top: 2000px;
+    top: 1190px;
     width: 100%;
     display: flex;
 }
@@ -282,7 +288,7 @@ nav{
 }
 .vmg{
     position: absolute;
-    top:2100px;
+    top:1300px;
     display: flex;
     margin: 20px;
     gap: 10px;
@@ -338,7 +344,7 @@ nav{
 
 .spons{
     position: absolute;
-    top: 2420px;
+    top: 2460px;
 }
 
 .spons-tit{
@@ -352,7 +358,7 @@ nav{
 
 marquee{
     position: absolute;
-    top: 2540px;
+    top: 2590px;
 }
 .spo-img{
     margin-right: 100px;
@@ -376,9 +382,12 @@ marquee{
 
 /* ContactUs */
 
+#cont-sec{
+    scroll-margin-top: 100px;
+}
 .contact-cnt{
     position: absolute;
-    top: 2670px;
+    top: 2770px;
 }
 .con-tit{
     position: relative;
@@ -388,11 +397,12 @@ marquee{
     color:rgb(11, 81, 128);
 }
 
+
 /* Form */
 
 .form{
     position: absolute;
-    top:2700px ;
+    top:2800px ;
     left: 100px;
     margin: 30px;
     font-family: "Inria Sans", serif;
@@ -480,7 +490,7 @@ marquee{
 
 .con-map{
     position: absolute;
-    top: 2860px;
+    top: 2920px;
     left: 780px;
     filter: drop-shadow(10px 4px 4px rgb(11, 81, 128));
 
@@ -518,7 +528,7 @@ marquee{
 
 .footer-cnt{
     position: absolute;
-    top: 3400px;
+    top: 3600px;
     padding: 30px;
     width:100% ;
     border-top: #0893CF solid 3px;
